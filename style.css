@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#tree {
+    margin-top: 20px;
+}
+
+.node circle {
+    fill: #fff;
+    stroke: #555;
+    stroke-width: 1.5px;
+}
+
+.node text {
+    font: 12px sans-serif;
+}
+
+.node.deceased circle {
+    fill: #999;
+}
+
+.link {
+    fill: none;
+    stroke: #555;
+    stroke-width: 1.5px;
+}
